@@ -3,6 +3,7 @@ import MacPage from './pages/Mac/Mac';
 import StorePage from './pages/Store/Store';
 import IPadPage from './pages/IPad/IPad';
 import Navigation from './navigation/Navigation';
+import './styles/styles.css';
 
 const App = () => {
   return (
