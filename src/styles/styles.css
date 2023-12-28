@@ -2,10 +2,14 @@
 
 .navbar {
     background-color: #454444;
-    font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-    font-size: 16px;
 }
 
 .nav-link {
     color: #dadada;
+    font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 15px;
+}
+
+.custom-spacing {
+    margin-right: 10px;
 }
