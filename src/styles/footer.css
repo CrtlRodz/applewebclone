@@ -1,6 +1,10 @@
-.container,
-.links,
-.copyRight {
+.container {
+    font-size: 12px;
+}
+
+.copyRight,
+.footer-links,
+.paragraph {
     font-size: 12px;
     color: #b2b3b2;
 }
