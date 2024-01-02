@@ -8,17 +8,3 @@
     font-size: 12px;
     color: #b2b3b2;
 }
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.grid-item {
-    margin-top: 0;
-    width: 100%;
-}
-
-.section-wrapper {
-    width: 100%;
-}
