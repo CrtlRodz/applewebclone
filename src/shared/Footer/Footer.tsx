@@ -29,6 +29,7 @@ const FooterColumn: React.FC<FooterColumnProps> = ({ title, items }) => (
 const Footer = () => {
 
   return (
+    <div className="page-wrapper">
     <div className="container">
       <Box>
         <Typography className='paragraph' paragraph>
@@ -52,10 +53,8 @@ const Footer = () => {
         <Divider orientation="horizontal" variant="fullWidth" />
       </Box>
 
-  {/* Footer Columns */}
  <Box sx={{p:2}}>
  <Grid container spacing={3}>
-        {/* Footer Columns */}
         <Grid item xs={12} sm={6} md={2}>
           <FooterColumn title={footerData[0].title} items={footerData[0].items} />
           <FooterColumn title={footerData[1].title} items={footerData[1].items} />
@@ -130,6 +129,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
+    </div>
     </div>
   );
 };
