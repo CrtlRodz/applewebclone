@@ -139,11 +139,11 @@ const Footer = () => {
         <div className="col p-2">
           <Grid container spacing={2}  >
             <Grid item >
-            <Link className='footer-links'  href="#" underline="hover">Privacy Policy     </Link>
+            <Link className='footer-links'  href="#" underline="hover">Privacy Policy</Link>
             </Grid>
 
             <Grid item>
-            <Link className='footer-links' href="#" underline="hover" >Terms of Use     </Link>
+            <Link className='footer-links' href="#" underline="hover" >Terms of Use</Link>
             </Grid>
 
             <Grid item>
@@ -152,7 +152,7 @@ const Footer = () => {
             </Grid>
 
             <Grid item>
-            <Link  className='footer-links' href="#" underline="hover" >Legal     </Link>
+            <Link  className='footer-links' href="#" underline="hover" >Legal</Link>
             </Grid>
 
             <Grid item>
